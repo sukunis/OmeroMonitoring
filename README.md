@@ -9,5 +9,6 @@ Build: >>sh build.sh
 
 OR start client separately with script:
 OmeroMonitoring/src/build/install/OmeroMonitoring/bin/OmeroMonitoring.bat
+
 OR execute java:
-java -cp .;<pathTo>/OmeroMonitoring/src/build/install/OmeroMonitoring/lib/*; com.example.SimpleConnection
+java -cp .;[pathTo]/OmeroMonitoring/src/build/install/OmeroMonitoring/lib/*; com.example.SimpleConnection
