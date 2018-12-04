@@ -3,12 +3,21 @@ based on https://github.com/ome/minimal-omero-client to measure upload speed
 Client-Server.
 
 Using gradle to build project.
-Usage:
+
+## Usage:
+
 Please set the right gradle path in build.sh.
-Build: >>sh build.sh
 
-OR start client separately with script:
-OmeroMonitoring/src/build/install/OmeroMonitoring/bin/OmeroMonitoring.bat
-
+### Build: 
+```
+>> sh build.sh
+```
+### Execute:
+start client separately with script:
+```
+>> ./src/build/install/OmeroMonitoring/bin/OmeroMonitoring
+```
 OR execute java:
-java -cp .;[pathTo]/OmeroMonitoring/src/build/install/OmeroMonitoring/lib/*; com.example.SimpleConnection
+```
+>> java -cp .;[pathTo]/OmeroMonitoring/src/build/install/OmeroMonitoring/lib/*; com.example.SimpleConnection
+```
